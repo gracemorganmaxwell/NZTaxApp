@@ -1,4 +1,4 @@
-This NZ Tax App which calculates how much tax is required to be paid by the individual (ie. me as a contractor) based on the whole amount enbtered as income for that tax year.
+This NZ Tax App which calculates how much tax is required to be paid by the individual (ie. me as a contractor) based on the whole amount entered as income for that tax year.
 
 HTML:
 
@@ -18,7 +18,7 @@ JavaScript:
 
 Functionality: JavaScript adds interactive features.
 Event Listener: Listens for a click event on the calculate button.
-Tax Calculation: When the button is clicked, it retrieves the user's income from the input field, calculates the tax based on the tax brackets, and then displays the result in the result <div>.
+Tax Calculation: When the button is clicked, it retrieves the user's income from the input field, calculates the tax based on the tax brackets, and then displays the result in the result `<div>`.
 
 Overall Workflow
 User Interaction: The user enters their income in the input field.
