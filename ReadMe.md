@@ -1,7 +1,7 @@
-Day 1 of 365DaysOfCode Practising JS Fundamentals
+Day 1 of 365DaysOfCode Today: Practising JS Fundamentals
 
 This NZ Tax App calculates how much tax is required to be paid by the individual (ie. me as a contractor) based on the whole amount entered as income for that tax year.
-This NZ Tax App which calculates how much tax is required to be paid in dollars by the individual (ie. me as a contractor) based on the whole amount entered as the indiviuals singular income for that tax year.
+This NZ Tax App calculates how much tax is required to be paid in dollars by the individual (ie. me as a contractor) based on the whole amount entered as the individual singular income for that tax year.
 
 HTML:
 
