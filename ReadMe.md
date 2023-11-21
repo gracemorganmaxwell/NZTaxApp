@@ -1,4 +1,4 @@
-This NZ Tax App which calculates how much tax is required to be paid by the individual (ie. me as a contractor) based on the whole amount enbtered as income for that tax year.
+This NZ Tax App which calculates how much tax is required to be paid in dollars by the individual (ie. me as a contractor) based on the whole amount entered as the indiviuals singular income for that tax year.
 
 HTML:
 
@@ -24,3 +24,7 @@ Overall Workflow
 User Interaction: The user enters their income in the input field.
 Calculation Trigger: Upon clicking the calculate button, JavaScript calculates the tax.
 Display Result: The calculated tax is displayed on the webpage.
+
+Sources: 
+"Tax Rates for Individuals" by Inland Revenue Department(New Zealand) accessed online from:
+https://www.ird.govt.nz/income-tax/income-tax-for-individuals/tax-codes-and-tax-rates-for-individuals/tax-rates-for-individuals on Tuesday 21st November, 2023 at 3:06pm (NZST)
