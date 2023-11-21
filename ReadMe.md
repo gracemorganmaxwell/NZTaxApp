@@ -28,6 +28,6 @@ User Interaction: The user enters their income in the input field.
 Calculation Trigger: Upon clicking the calculate button, JavaScript calculates the tax.
 Display Result: The calculated tax is displayed on the webpage.
 
-Sources: 
+Sources:
 "Tax Rates for Individuals" by Inland Revenue Department(New Zealand) accessed online from:
 https://www.ird.govt.nz/income-tax/income-tax-for-individuals/tax-codes-and-tax-rates-for-individuals/tax-rates-for-individuals on Tuesday 21st November, 2023 at 3:06pm (NZST)
