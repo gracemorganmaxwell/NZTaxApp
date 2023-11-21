@@ -1,17 +1,17 @@
-This NZ Tax App which calculates how much tax is required to be paid by the individual (ie. me as a contractor) based on the whole amount entered as income for that tax year.
+This NZ Tax App calculates how much tax is required to be paid by the individual (ie. me as a contractor) based on the whole amount entered as income for that tax year.
 
 HTML:
 
 Structure: HTML provides the structure of the webpage.
-Input Field: There's an input field (<input type="number" id="incomeInput">) where users can enter their income.
+Input Field: There's an input field `(<input type = "number" id = "incomeInput">)` where users can enter their income.
 
-Button: A button (<button id="calculateButton">) for triggering the tax calculation.
-Result Display: A <div> element (<div id="result"></div>) to display the calculated tax amount.
+Button: A button `(<button id="calculateButton">)` for triggering the tax calculation.
+Result Display: A `<div>` element `(<div id="result"></div>)` to display the calculated tax amount.
 
 CSS:
 
 Styling: CSS is used to style the HTML elements.
-Layout: The .container class centers the content and adds padding and borders for better presentation.
+Layout: The `.container` class centres the content and adds padding and borders for better presentation.
 Input/Button Styling: Styles are applied to the input field and button for uniformity and aesthetics (padding, border-radius, etc.).
 
 JavaScript:
