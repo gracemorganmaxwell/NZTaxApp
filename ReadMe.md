@@ -5,26 +5,32 @@ The NZ Tax Calculator is designed to help self-employed individuals, sole trader
 
 ## Features
 
-### Interactive UI: Simple, step-by-step interface to input primary income, secondary income, and deductibles.
+### Interactive UI: 
+Simple, step-by-step interface to input primary income, secondary income, and deductibles.
 
-### Responsive Design: Optimized for both desktop and mobile devices, ensuring accessibility anywhere, anytime.
+### Responsive Design:
+Optimized for both desktop and mobile devices, ensuring accessibility anywhere, anytime.
 
-### Deductible Insights: Offers guidance on what expenses can be considered deductible, enhancing user understanding of potential tax savings.
+### Deductible Insights: 
+Offers guidance on what expenses can be considered deductible, enhancing user understanding of potential tax savings.
 
-### Real-Time Calculation: Instantly calculates the estimated tax based on the input, providing a quick overview of tax obligations.
+### Real-Time Calculation: 
+Instantly calculates the estimated tax based on the input, providing a quick overview of tax obligations.
 
-### Reset Functionality: Allows users to start over, making it easy to explore different scenarios.
-Usage
+### Reset Functionality: 
+Allows users to start over, making it easy to explore different scenarios.
 
-## Starting the Calculation: Click on the "Start" button to begin entering your financial details.
+##Usage
+
+Starting the Calculation: Click on the "Start" button to begin entering your financial details.
 
 ## Entering Incomes:
 
-Primary Income: Input your main source of income for the fiscal year.
-Secondary Income: If applicable, add any additional income streams.
-Adding Deductibles: Enter the total amount of deductible expenses incurred during the fiscal year.
-Calculate Tax: After inputting all required information, click on "Calculate Tax" to view your estimated tax liability.
-Resetting the Tool: Use the "Start Over" button to clear all inputs and calculations, allowing you to begin anew.
+1. Primary Income: Input your main source of income for the fiscal year.
+2. Secondary Income: If applicable, add any additional income streams.
+3. Adding Deductibles: Enter the total amount of deductible expenses incurred during the fiscal year.
+4. Calculate Tax: After inputting all required information, click on "Calculate Tax" to view your estimated tax liability.
+5. Resetting the Tool: Use the "Start Over" button to clear all inputs and calculations, allowing you to begin anew.
 
 ## Educational Content
 Dropdowns and Definitions: Learn more about specific terms and criteria directly related to tax filing for self-employed individuals in New Zealand through interactive dropdowns.
