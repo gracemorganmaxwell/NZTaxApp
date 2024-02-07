@@ -2,16 +2,164 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Tax Calculator</title>
+    <title>NZ Tax Calculator for Sole Traders and Contractors</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <h1>Tax Calculator</h1>
-      <input type="number" id="incomeInput" placeholder="Enter your income" />
-      <button id="calculateButton">Calculate Tax</button>
-      <div id="result"></div>
+     <body>
+    <h1>
+      New Zealand Tax Calculator for Self-Employed, Sole Traders and Contractors
+    </h1>
+    <div class="container" id="toolContainer">
+      <button id="startButton">Start</button>
+      <button id="resetButton" style="display: none">Start Over</button>
+      <!-- Hide these initially -->
+      <div id="primaryIncomePrompt" style="display: none">
+        <p>Enter your primary income:</p>
+        <input
+          type="number"
+          id="primaryIncomeInput"
+          placeholder="Enter your primary income"
+        />
+        <button id="toSecondaryIncome">Next</button>
+      </div>
+      <div id="secondaryIncomePrompt" style="display: none">
+        <p>Enter your secondary income (if any):</p>
+        <input
+          type="number"
+          id="secondaryIncomeInput"
+          placeholder="Enter your secondary income"
+        />
+        <button id="toDeductibles">Next</button>
+      </div>
+      <div id="deductiblesPrompt" style="display: none">
+        <p>Enter your deductibles:</p>
+        <input
+          type="number"
+          id="deductiblesInput"
+          placeholder="Enter your deductibles"
+        />
+        <button id="calculateTax">Calculate Tax</button>
+      </div>
+      <div id="result" style="display: none"></div>
     </div>
+    <div class="pageContainer">
+      <h4>About this tool:</h4>
+      <p>
+        Discover the estimated applicable amount of income tax for yourself if
+        you reside in New Zealand and are checking the present fiscal year.
+        Based on IRDs tax income brackets for Sole Traders, Contractors and Self
+        Employed. This tool does not take into account any specific obligations
+        regarding GST, ACC Levies and other specific tax considerations like
+        depreciation or specific industry-related deductions.
+      </p>
+      <p>
+        Proceed by pressing 'Start', answering the prompts, and then select
+        'Next' to view a page that provides the tax rates for this tax year
+        April 1st to March 31st 2024 along with the calculated tax on your
+        reported income.
+      </p>
+      <hr>
+      <h4>When to Utilise this tool:</h4>
+      <ul>
+        <div>
+          <li>
+            When filing an income tax return in New Zealand for this tax year of
+            April 1st 2023 to March 31st 2024;
+          </li>
+          <li>
+            If you are an individual, who identifies as a Sole Trader, a
+            Contractor or Self Employed. Not sure check definitions, check out
+            down below.
+          </li>
+          <li>
+            You feel confidently informed about your business-related deductible and have
+            tracked your tax-deductible expenses and feel confident you know the
+            sum amount for the financial year. If that's not the case then
+            please check out the video below.
+          </li>
+        </div>
+        <hr />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/uY_81h4UXjQ?si=-_J94LFGyBGyYj7X"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </ul>
+      <h4>Defintions:</h4>
+      <p>
+        These definitions are based on IRD's definitions for
+        <a
+          href="https://www.ird.govt.nz/roles/screen-production-industry/self-employed-res-contractors"
+          >`self-employed`</a
+        >
+        and
+        <a href="https://www.ird.govt.nz/roles/self-employed">`contractors`</a>.
+      </p>
+      <div>
+        <h5>Sole Trader or Self Employed:</h5>
+        <p>
+          A sole trader is an individual running their own business. They are
+          the sole owner and are personally responsible for the business’s debts
+          and obligations. Sole traders declare their business income on their
+          personal tax return, and they pay personal income tax on their
+          business profits.
+        </p>
+        <p>
+          The term "self-employed" broadly refers to anyone who works for
+          themselves, whether as a sole trader, a contractor or even part of
+          a partnership. Self-employed individuals are responsible for filing
+          their tax returns and paying tax on their income.
+        </p>
+        <h5>Contractor:</h5>
+        <p>
+          Contractors are individuals who provide services to another entity
+          under a contract for services, rather than as an employee. Contractors
+          can work in various fields, ranging from construction to freelance
+          writing. Like sole traders, contractors pay tax on their income
+          through their tax returns, and their tax rates depend on
+          their total income.
+        </p>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>Created by</p>
+      <span>
+        <a href="https://github.com/gracemorganmaxwell">
+          gracemorganmaxwell</a
+        ></span
+      >
+      <p>Based on New Zealand Inland Revenues resources:</p>
+      <span>
+        <a href="https://www.ird.govt.nz/income-tax/income-tax-for-individuals"
+          >here.</a
+        ></span
+      >
+      <h5>Last updated:</h5>
+      <p>Wed 7th Feb, 2024</p>
+      <h5>Disclaimers:</h5>
+      <p>
+        This tool is a project that was created as part of self-directed
+        learning, by myself, I am a software engineering student. I am not an
+        accountant, a registered financial professional or a tax advisor.
+      </p>
+      <p>
+        Users, please be aware that any results generated by this tool
+        should be taken as an estimate. For the most accurate and personalized
+        advice, it's crucial to consult directly with the IRD or a professional
+        tax advisor. NZ tax laws and interpretations can change, and individual
+        circumstances can significantly affect tax obligations and entitlements.
+      </p>
+      <p>
+        Also, all data entered and generated while using the tool is not saved
+        or stored anywhere, so when you refresh the browser or close this page;
+        that data will be deleted.
+      </p>
+    </footer>
     <script src="/index.js"></script>
   </body>
 </html>
