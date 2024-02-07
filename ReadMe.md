@@ -1,56 +1,42 @@
-# NZ Tax App for Sole Trader or Contractor User
+# NZ Tax Calculator for Sole Traders and Contractors
+## Overview
 
-Welcome! 
+The NZ Tax Calculator is designed to help self-employed individuals, sole traders, and contractors in New Zealand estimate their income tax liabilities for the fiscal year. By incorporating the latest tax brackets and regulations from the Inland Revenue Department (IRD), this tool simplifies the process of calculating tax dues based on primary income, secondary income, and deductible expenses.
 
-This NZ Tax App calculates how much tax is required to be paid by the individual (ie. me as a contractor) based on the whole amount entered as the gross income for that tax year.
+## Features
 
-## HTML:
+### Interactive UI: Simple, step-by-step interface to input primary income, secondary income, and deductibles.
 
-### Structure: 
-HTML provides the structure of the webpage.
+### Responsive Design: Optimized for both desktop and mobile devices, ensuring accessibility anywhere, anytime.
 
-### Input Field: 
-There's an input field `(<input type = "number" id = "incomeInput">)` where users can enter their income.
+### Deductible Insights: Offers guidance on what expenses can be considered deductible, enhancing user understanding of potential tax savings.
 
-### Button: 
-A button `(<button id="calculateButton">)` for triggering the tax calculation.
+### Real-Time Calculation: Instantly calculates the estimated tax based on the input, providing a quick overview of tax obligations.
 
-### Result Display: 
-A `<div>` element `(<div id="result"></div>)` to display the calculated tax amount.
+### Reset Functionality: Allows users to start over, making it easy to explore different scenarios.
+Usage
 
-## CSS:
+## Starting the Calculation: Click on the "Start" button to begin entering your financial details.
 
-### Styling: 
-CSS is used to style the HTML elements.
+## Entering Incomes:
 
-### Layout: 
-The `.container` class centres the content and adds padding and borders for better presentation.
+Primary Income: Input your main source of income for the fiscal year.
+Secondary Income: If applicable, add any additional income streams.
+Adding Deductibles: Enter the total amount of deductible expenses incurred during the fiscal year.
+Calculate Tax: After inputting all required information, click on "Calculate Tax" to view your estimated tax liability.
+Resetting the Tool: Use the "Start Over" button to clear all inputs and calculations, allowing you to begin anew.
 
-### Input/Button Styling: 
-Styles are applied to the input field and button for uniformity and aesthetics (padding, border-radius, etc.).
+## Educational Content
+Dropdowns and Definitions: Learn more about specific terms and criteria directly related to tax filing for self-employed individuals in New Zealand through interactive dropdowns.
+Video Resources: Access curated video content that provides additional insights into managing your taxes effectively.
 
-## JavaScript:
+## Disclaimers
+This tool is created for educational and informational purposes to assist in estimating tax liabilities based on user-provided data. It does not account for all possible tax scenarios or obligations regarding GST, ACC levies, and other specific tax considerations. Users are advised to consult with a professional tax advisor or the IRD for personalized advice and to ensure compliance with current tax laws and regulations.
 
-### Functionality: 
-JavaScript adds interactive features.
+Last Updated
+Wed 7th Feb, 2024
 
-### Event Listener: 
-Listens for a click event on the calculate button.
+#### Credits
+Created by gracemorganmaxwell based on resources and guidelines from the Inland Revenue Department.
 
-### Tax Calculation: 
-When the button is clicked, it retrieves the user's income from the input field, calculates the tax based on the tax brackets, and then displays the result in the result `<div>`.
-
-## Overall Workflow:
-
-### User Interaction: 
-The user enters their income in the input field.
-
-### Calculation Trigger: 
-Upon clicking the calculate button, JavaScript calculates the tax.
-
-### Display Result: 
-The calculated tax is displayed on the webpage.
-
-Source:
-"Tax Rates for Individuals" by Inland Revenue Department(New Zealand) accessed online from:
-(https://www.ird.govt.nz/income-tax/income-tax-for-individuals/tax-codes-and-tax-rates-for-individuals/tax-rates-for-individuals) on Wednesday, February 2024, at approximately 11:48 am, New Zealand Standard Time. 
+#### Note: This tool does not save or store any personal data entered by the user. All information is deleted upon refreshing or closing the webpage.
